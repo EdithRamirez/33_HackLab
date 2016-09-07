@@ -1,0 +1,64 @@
+
+  @media only screen and (min-width : 768px) {
+  	a.logo{
+  		float: left;
+  	}
+
+    }
+
+ .logo{
+ 	max-width: 150px;
+ }
+
+/* .navbar{
+ 	position: relative;
+ 	margin-bottom: 4em;
+ }*/
+
+ .fondo1{
+    background-image:url(../img/fondo1.jpg);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    height: 40em;
+}
+
+.tamaño {
+	width: 50%;
+	height: 50%;
+	position: relative;
+
+}
+.abs{
+		position: absolute;
+	transition: opacity 0.8s ease;
+}
+.otro:hover {
+	opacity: 0;
+}
+
+.nahu {
+	width: 100%;
+	height: 40em;
+}
+
+.pad {
+	padding: 5% 20%;
+}
+
+*{
+	color: #BB097F;
+	font-weight: bold;
+}
+
+h1 {
+	padding-top: 20%;
+}
+
+button {
+	margin-left: 70%;
+	margin-top: 10%;
+}
+
+
+
+

@@ -1,0 +1,41 @@
+img{
+  width: 90%;
+}
+.carousel-control {
+  padding-top:10%;
+  width:5%;
+}
+/*carrusel*/
+.well{
+	background-color: #0b4c5a;
+}
+.carousel-control.right, .carousel-control.left{
+	background-image:rgba(255,255,255,.2);
+}
+/*fotos*/
+.mapa, .contenedor{
+	max-width: 100%;
+	height: 289px;
+}
+.contenedor{
+	position: relative;
+	left: 5%;
+}
+.contenedor img{
+	position: absolute;
+	transition: opacity 1.5s ease;
+}
+.contenedor img.oculta:hover{ 
+	opacity: 0;
+}
+h1{
+	color: #BB097F;
+	font-weight: bold;
+}
+h2{
+	color: #fdc414;
+}
+/*padding y margin*/
+.pd-5{
+	padding: 5%;
+}
